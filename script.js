@@ -143,8 +143,9 @@ gsap.from(".lines>h3",{
     scrollTrigger :{
         trigger : ".lines>h3",
         scroller : "body",
-        start : "top -20%",
-        end : "top 58%",
+        start : "top 10%",
+        end : "top 48%",
+        markers:true,
         scrub : 1
     }
 })
